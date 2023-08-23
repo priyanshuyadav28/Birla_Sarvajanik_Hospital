@@ -1,0 +1,99 @@
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    min-width: 1166.78px;
+    height: 1101px;
+    gap: 12px;
+    margin-left: 60px;
+}
+
+.card {
+    width: 350.74px;
+    height: 536px;
+    border: 1px;
+}
+
+.image {
+    width: 375.74px;
+    height: 310px;
+}
+
+.experts {
+    width: 302.57px;
+    height: 64px;
+    font-family: serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32.88px;
+    color: #222F66;
+}
+
+.description {
+    width: 370.8px;
+    height: 73px;
+    font-family: serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23.91px;
+    color: #606060;
+}
+
+.btn-read-more {
+    width: 125.58px;
+    height: 50px;
+    border: 1px solid #222F66;
+    border-radius: 25px;
+    font-family: serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23.91px;
+    color: #222F66;
+
+}
+
+@media (max-width: 480px) {
+    .cards {
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        /* margin-left: 10px; */
+    }
+
+    .card {
+        padding: 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Media query for screens with a max width of 768px */
+@media (max-width: 768px) {
+    .cards {
+        margin-left: -13px;
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 100vw;
+        height: auto;
+    }
+}
+@media (max-width: 1185px) {
+    .cards {
+        margin-left: -13px;
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 100vw;
+        height: auto;
+    }
+}
+
+
+

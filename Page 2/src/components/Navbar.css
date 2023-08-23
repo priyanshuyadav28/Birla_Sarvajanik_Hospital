@@ -1,0 +1,44 @@
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 1036px;
+    height: 20px;
+    top: 174px;
+    left: 216px; */    
+    background-color: #222F66;
+    height: 50px;
+    gap: 20px;
+    
+}
+
+.menu {
+    size: 15px;
+    font-weight: 400;
+    line-height: 19.88px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.menu-blog {
+    color: #06A4E2;
+    cursor: pointer;
+}
+
+
+@media (max-width: 480px) {
+    .content {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       height: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .content {
+      font-size: 12px;
+    }
+}

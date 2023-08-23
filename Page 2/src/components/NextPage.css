@@ -1,0 +1,40 @@
+
+
+.next-page-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.num {
+    width: 45.48px;
+    height: 46px;
+    border-radius: 4px;
+   background-color: #EEEEEE;
+   color: #29367D;
+}
+
+.dots {
+    width: 45.48px;
+    height: 46px;
+    border-radius: 4px;
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #29367D;
+}
+
+.num1 {
+    background-color: #29367D;
+    color: #FFFFFF;
+}
+
+.arrow {
+    color: #29367D;
+    width: 45.48px;
+    height: 46px;
+    font-weight: bold;
+    
+}

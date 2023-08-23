@@ -1,0 +1,8 @@
+/* write your css here */
+.wrapper {
+    overflow-x: hidden;
+}
+
+.blog {
+    background-color: black;
+}

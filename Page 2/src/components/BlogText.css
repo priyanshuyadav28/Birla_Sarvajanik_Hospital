@@ -1,0 +1,33 @@
+
+.blog-text {
+    width: 816.7435913085938px;
+    height: 163px;
+    /* top: 661px; */
+    margin-top: 40px;
+    margin-left: 125.8931884765625px;
+    color: #606060;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+@media (max-width: 480px) {
+    .blog-text {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-top: 5px;
+        padding: 10px;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .blog-text {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-top: 5px;
+        padding: 20px;
+    }
+}

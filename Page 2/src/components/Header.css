@@ -1,0 +1,111 @@
+/* Default styles for header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 48px;
+    top: 10px;
+    left: -1.66px;
+    padding: 11px 130px 11px 130px;
+    background-color: #EEEEEE;
+}
+
+.left-part {
+    width: 70%;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15.9px;
+    color: #222F66;
+}
+
+.right-part {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 194px;
+    height: 26px;
+}
+
+.left-part-text,
+.right-part-text {
+    cursor: pointer;
+}
+
+.social-icon {
+    border-radius: 1rem;
+    padding: 2px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#fb,
+#insta,
+#twitter,
+#linkedin {
+    border: 1px solid #053B8C;
+}
+
+/* Media queries for responsiveness */
+
+/* For screens with max width of 768px */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 11px 20px;
+        height: auto;
+    }
+
+    .left-part {
+        width: 100%;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .right-part {
+        /* margin-top: 10px; */
+        width: 100%;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .social-icon {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+}
+
+/* For screens with max width of 480px */
+/* For screens with max width of 480px */
+@media (max-width: 480px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 11px 20px;
+        height: auto;
+    }
+
+    .left-part {
+        width: 100%;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .right-part {
+        width: 100%;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-top: 10px;
+    }
+
+    .social-icon {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+}
